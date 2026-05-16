@@ -2,6 +2,9 @@
 
 A responsive Angular e-commerce application built for product browsing, searching, routing, and cart management.
 
+## Live Demo
+[View deployed app](https://e-commerce-store-6b1o.onrender.com)
+
 ## Features
 - Product listing and detail pages
 - Search and filtering
