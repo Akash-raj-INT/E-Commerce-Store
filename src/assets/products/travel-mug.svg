@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Travel coffee mug</title>
+  <rect width="800" height="600" fill="#fffbeb"/>
+  <rect x="300" y="130" width="200" height="360" rx="58" fill="#d97706"/>
+  <rect x="280" y="100" width="240" height="56" rx="28" fill="#92400e"/>
+  <rect x="325" y="220" width="150" height="150" rx="34" fill="#fde68a"/>
+  <path d="M535 245h45c48 0 48 95 0 95h-45" fill="none" stroke="#92400e" stroke-width="28" stroke-linecap="round"/>
+</svg>

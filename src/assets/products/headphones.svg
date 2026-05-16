@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Modern wireless headphones</title>
+  <rect width="800" height="600" fill="#eef6ff"/>
+  <circle cx="400" cy="300" r="210" fill="#dbeafe"/>
+  <path d="M235 310c0-103 70-185 165-185s165 82 165 185" fill="none" stroke="#1e3a8a" stroke-width="34" stroke-linecap="round"/>
+  <rect x="190" y="285" width="115" height="170" rx="38" fill="#2563eb"/>
+  <rect x="495" y="285" width="115" height="170" rx="38" fill="#2563eb"/>
+  <rect x="220" y="320" width="55" height="100" rx="24" fill="#bfdbfe"/>
+  <rect x="525" y="320" width="55" height="100" rx="24" fill="#bfdbfe"/>
+</svg>

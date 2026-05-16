@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Smart air purifier</title>
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <rect x="280" y="105" width="240" height="390" rx="64" fill="#e2e8f0"/>
+  <circle cx="400" cy="190" r="30" fill="#22c55e"/>
+  <path d="M330 285h140M330 335h140M330 385h140" stroke="#64748b" stroke-width="22" stroke-linecap="round"/>
+  <path d="M225 245c-58 38-58 82 0 120M575 245c58 38 58 82 0 120" fill="none" stroke="#bae6fd" stroke-width="28" stroke-linecap="round"/>
+</svg>

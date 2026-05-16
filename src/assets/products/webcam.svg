@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Streaming webcam</title>
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <rect x="245" y="165" width="310" height="210" rx="70" fill="#111827"/>
+  <circle cx="400" cy="270" r="72" fill="#1d4ed8"/>
+  <circle cx="400" cy="270" r="40" fill="#bfdbfe"/>
+  <circle cx="455" cy="225" r="15" fill="#22c55e"/>
+  <path d="M400 375v68M310 465h180" stroke="#374151" stroke-width="32" stroke-linecap="round"/>
+</svg>

@@ -16,6 +16,7 @@ export class ProductDetailComponent implements OnInit {
   quantity = 1;
   loading = true;
   error = '';
+  readonly fallbackImage = '/assets/products/fallback.svg';
 
   constructor(
     private route: ActivatedRoute,
@@ -60,6 +61,15 @@ export class ProductDetailComponent implements OnInit {
       this.cartService.addToCart(this.product, this.quantity);
       this.quantity = 1;
     }
+  }
+
+  handleImageError(event: Event): void {
+    const image = event.target as HTMLImageElement;
+    if (image.src.endsWith(this.fallbackImage)) {
+      return;
+    }
+
+    image.src = this.fallbackImage;
   }
 
   navigateBack(): void {

@@ -1,6 +1,6 @@
 <article class="product-card">
   <a [routerLink]="['/product', product.id]">
-    <img [src]="product.image" [alt]="product.name" />
+    <img [src]="product.image" [alt]="product.name" loading="lazy" (error)="handleImageError($event)" />
   </a>
   <h3>{{ product.name }}</h3>
   <p>{{ product.category }}</p>

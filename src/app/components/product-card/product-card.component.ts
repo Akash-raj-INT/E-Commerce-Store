@@ -10,6 +10,7 @@ export class ProductCardComponent {
   @Input() product!: Product;
   @Output() addToCart = new EventEmitter<number>();
   quantity = 1;
+  readonly fallbackImage = '/assets/products/fallback.svg';
 
   decreaseQuantity(): void {
     if (this.quantity > 1) {
@@ -19,5 +20,14 @@ export class ProductCardComponent {
 
   increaseQuantity(): void {
     this.quantity += 1;
+  }
+
+  handleImageError(event: Event): void {
+    const image = event.target as HTMLImageElement;
+    if (image.src.endsWith(this.fallbackImage)) {
+      return;
+    }
+
+    image.src = this.fallbackImage;
   }
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Classic espresso machine</title>
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <rect x="205" y="160" width="390" height="280" rx="46" fill="#475569"/>
+  <rect x="265" y="220" width="145" height="85" rx="20" fill="#e2e8f0"/>
+  <circle cx="500" cy="265" r="42" fill="#cbd5e1"/>
+  <path d="M365 330h90v40c0 42-90 42-90 0z" fill="#0f172a"/>
+  <path d="M318 440h164" stroke="#94a3b8" stroke-width="32" stroke-linecap="round"/>
+  <rect x="315" y="370" width="170" height="88" rx="24" fill="#fed7aa"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Smart fitness watch</title>
+  <rect width="800" height="600" fill="#fdf2f8"/>
+  <rect x="342" y="80" width="116" height="160" rx="32" fill="#be185d"/>
+  <rect x="342" y="360" width="116" height="160" rx="32" fill="#be185d"/>
+  <rect x="285" y="205" width="230" height="190" rx="52" fill="#db2777"/>
+  <rect x="315" y="235" width="170" height="130" rx="34" fill="#fce7f3"/>
+  <path d="M342 305l34-35 38 55 45-78" fill="none" stroke="#be185d" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Wireless charging pad</title>
+  <rect width="800" height="600" fill="#f0f9ff"/>
+  <ellipse cx="400" cy="330" rx="235" ry="115" fill="#38bdf8"/>
+  <ellipse cx="400" cy="310" rx="200" ry="88" fill="#e0f2fe"/>
+  <path d="M420 220l-85 100h85l-45 90 105-120h-85z" fill="#0369a1"/>
+  <path d="M590 330c85 25 112 72 80 118" fill="none" stroke="#0c4a6e" stroke-width="22" stroke-linecap="round"/>
+</svg>

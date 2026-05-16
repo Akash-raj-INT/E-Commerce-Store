@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Minimal desktop lamp</title>
+  <rect width="800" height="600" fill="#fff7ed"/>
+  <circle cx="520" cy="185" r="130" fill="#fed7aa"/>
+  <path d="M315 420l105-210 115 60-105 150" fill="none" stroke="#9a3412" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M450 150l170 90-52 92-170-90z" fill="#f97316"/>
+  <ellipse cx="320" cy="470" rx="150" ry="34" fill="#fdba74"/>
+  <rect x="260" y="438" width="120" height="44" rx="22" fill="#c2410c"/>
+</svg>

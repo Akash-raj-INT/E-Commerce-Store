@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Ergonomic office chair</title>
+  <rect width="800" height="600" fill="#f5f3ff"/>
+  <rect x="290" y="90" width="220" height="250" rx="55" fill="#7c3aed"/>
+  <rect x="260" y="310" width="280" height="82" rx="36" fill="#8b5cf6"/>
+  <path d="M400 390v95M315 510h170M400 485l-85 45M400 485l85 45" stroke="#4c1d95" stroke-width="26" stroke-linecap="round"/>
+  <path d="M315 220h170" stroke="#ddd6fe" stroke-width="24" stroke-linecap="round"/>
+</svg>

@@ -6,7 +6,7 @@
   <div *ngIf="product" class="detail-card">
     <button class="secondary" type="button" (click)="navigateBack()">Back to products</button>
 
-    <img [src]="product.image" [alt]="product.name" />
+    <img [src]="product.image" [alt]="product.name" (error)="handleImageError($event)" />
     <h2>{{ product.name }}</h2>
     <p><strong>Category:</strong> {{ product.category }}</p>
     <p>{{ product.description }}</p>

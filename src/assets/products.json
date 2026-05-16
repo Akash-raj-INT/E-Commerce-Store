@@ -4,7 +4,7 @@
     "name": "Modern Wireless Headphones",
     "description": "High-quality sound with noise cancellation and comfortable ear cushions.",
     "price": 129.99,
-    "image": "https://images.unsplash.com/photo-1518441249871-3efe7c93c4a4?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/headphones.svg",
     "category": "Audio"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Minimal Desktop Lamp",
     "description": "LED task lamp with adjustable brightness and elegant design.",
     "price": 49.95,
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/desktop-lamp.svg",
     "category": "Home"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Everyday Backpack",
     "description": "Water-resistant backpack with laptop compartment and organized storage.",
     "price": 79.0,
-    "image": "https://images.unsplash.com/photo-1528701800489-20f8dea8f8b7?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/backpack.svg",
     "category": "Accessories"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Smart Fitness Watch",
     "description": "Track workouts, heart rate, and sleep with a lightweight touchscreen watch.",
     "price": 199.0,
-    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/fitness-watch.svg",
     "category": "Wearables"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Classic Espresso Machine",
     "description": "Compact coffee maker with programmable settings and fast heatup.",
     "price": 259.99,
-    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/espresso-machine.svg",
     "category": "Kitchen"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Ergonomic Office Chair",
     "description": "Adjustable lumbar support and breathable materials for long days at the desk.",
     "price": 189.5,
-    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/office-chair.svg",
     "category": "Furniture"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Portable SSD 1TB",
     "description": "High-speed external storage with shock resistance and USB-C compatibility.",
     "price": 129.0,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/portable-ssd.svg",
     "category": "Computers"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Wireless Charging Pad",
     "description": "Fast-charging pad for phones and earbuds with a sleek, low-profile design.",
     "price": 34.99,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/charging-pad.svg",
     "category": "Accessories"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Smart Air Purifier",
     "description": "HEPA filtration with real-time air quality monitoring and smartphone control.",
     "price": 179.0,
-    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/air-purifier.svg",
     "category": "Home"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Travel Coffee Mug",
     "description": "Thermal mug with leak-proof lid that keeps drinks hot for up to 8 hours.",
     "price": 24.99,
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/travel-mug.svg",
     "category": "Kitchen"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Mechanical Keyboard",
     "description": "Responsive RGB keyboard with tactile switches and customizable keycaps.",
     "price": 109.99,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/keyboard.svg",
     "category": "Computers"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Streaming Webcam",
     "description": "High-resolution webcam with autofocus and built-in microphone for clean video calls.",
     "price": 89.5,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+    "image": "/assets/products/webcam.svg",
     "category": "Computers"
   }
 ]
