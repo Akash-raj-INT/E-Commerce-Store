@@ -1,0 +1,15 @@
+<header>
+  <div>
+    <h1>E-Commerce Store</h1>
+    <p>Browse products, add items to your cart, and explore product details.</p>
+  </div>
+  <nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/cart">Cart</a>
+    <span class="cart-pill">Cart items: {{ cartCount$ | async }}</span>
+  </nav>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

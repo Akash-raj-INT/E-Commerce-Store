@@ -1,0 +1,16 @@
+.detail-card {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.detail-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.detail-card img {
+  max-height: 420px;
+}

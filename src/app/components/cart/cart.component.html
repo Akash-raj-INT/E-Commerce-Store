@@ -1,0 +1,48 @@
+<section>
+  <div class="cart-header">
+    <h2 class="page-title">Shopping Cart</h2>
+    <button class="secondary" type="button" (click)="clearCart()">Clear cart</button>
+  </div>
+
+  <div *ngIf="(cartItems$ | async) as items">
+    <div *ngIf="items.length === 0" class="empty-state">
+      Your cart is empty. Add a few products to continue.
+    </div>
+
+    <div *ngIf="items.length > 0" class="cart-card">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items; trackBy: trackByProductId">
+            <td>{{ item.product.name }}</td>
+            <td>${{ item.product.price.toFixed(2) }}</td>
+            <td>
+              <div class="quantity-control">
+                <button class="outline" type="button" (click)="decrementQuantity(item)">-</button>
+                <input type="number" [value]="item.quantity" min="1" (change)="changeQuantity(item, $any($event.target).valueAsNumber || 1)" />
+                <button class="outline" type="button" (click)="incrementQuantity(item)">+</button>
+              </div>
+            </td>
+            <td>${{ (item.product.price * item.quantity).toFixed(2) }}</td>
+            <td>
+              <button class="secondary" (click)="removeItem(item)">Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="cart-summary">
+        <div>{{ items.length }} item{{ items.length === 1 ? '' : 's' }} in cart</div>
+        <strong>Order total: ${{ getTotal(items).toFixed(2) }}</strong>
+      </div>
+    </div>
+  </div>
+</section>

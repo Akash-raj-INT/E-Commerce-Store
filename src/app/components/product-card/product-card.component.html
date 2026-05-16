@@ -1,0 +1,26 @@
+<article class="product-card">
+  <a [routerLink]="['/product', product.id]">
+    <img [src]="product.image" [alt]="product.name" />
+  </a>
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.category }}</p>
+  <p>{{ product.description }}</p>
+
+  <div class="card-actions">
+    <div class="quantity-control">
+      <button class="outline" type="button" (click)="decreaseQuantity()">-</button>
+      <span>{{ quantity }}</span>
+      <button class="outline" type="button" (click)="increaseQuantity()">+</button>
+    </div>
+
+    <button class="primary" type="button" (click)="addToCart.emit(quantity)">
+      Add {{ quantity }} to Cart
+    </button>
+  </div>
+
+  <footer>
+    <span class="price">
+      ${{ product.price.toFixed(2) }}
+    </span>
+  </footer>
+</article>

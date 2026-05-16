@@ -1,0 +1,51 @@
+<div class="status-bar">
+  <div>
+    <h2 class="page-title">Featured Products</h2>
+    <p>Search, browse, and add products to your shopping cart.</p>
+  </div>
+  <div class="search-box">
+    <input
+      type="search"
+      placeholder="Search products..."
+      [(ngModel)]="searchTerm"
+      (input)="onSearchChange(searchTerm)"
+    />
+  </div>
+</div>
+
+<div class="category-bar" *ngIf="categories.length">
+  <div class="categories">
+    <button
+      type="button"
+      class="category-chip"
+      [class.active]="selectedCategory === ''"
+      (click)="clearCategory()"
+    >
+      All
+    </button>
+    <button
+      type="button"
+      *ngFor="let category of categories"
+      class="category-chip"
+      [class.active]="selectedCategory === category"
+      (click)="selectCategory(category)"
+    >
+      {{ category }}
+    </button>
+  </div>
+  <span class="product-count">{{ displayedProducts.length }} item{{ displayedProducts.length === 1 ? '' : 's' }}</span>
+</div>
+
+<div *ngIf="isLoading" class="empty-state">Loading products...</div>
+<div *ngIf="error" class="empty-state">{{ error }}</div>
+<div *ngIf="!isLoading && !error && displayedProducts.length === 0" class="empty-state">
+  No products match your search.
+</div>
+
+<div class="products-grid">
+  <app-product-card
+    *ngFor="let product of displayedProducts"
+    [product]="product"
+    (addToCart)="addToCart(product, $event)"
+  ></app-product-card>
+</div>

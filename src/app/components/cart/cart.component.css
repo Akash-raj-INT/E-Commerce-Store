@@ -1,0 +1,11 @@
+input[type="number"] {
+  width: 4.5rem;
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.cart-card {
+  padding: 1rem;
+}

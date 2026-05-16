@@ -1,0 +1,28 @@
+<section>
+  <div *ngIf="loading" class="empty-state">Loading product details...</div>
+
+  <div *ngIf="error" class="empty-state">{{ error }}</div>
+
+  <div *ngIf="product" class="detail-card">
+    <button class="secondary" type="button" (click)="navigateBack()">Back to products</button>
+
+    <img [src]="product.image" [alt]="product.name" />
+    <h2>{{ product.name }}</h2>
+    <p><strong>Category:</strong> {{ product.category }}</p>
+    <p>{{ product.description }}</p>
+
+    <div class="detail-actions">
+      <div class="quantity-control">
+        <button class="outline" type="button" (click)="decreaseQuantity()">-</button>
+        <span>{{ quantity }}</span>
+        <button class="outline" type="button" (click)="increaseQuantity()">+</button>
+      </div>
+
+      <button class="primary" (click)="addToCart()">Add {{ quantity }} to Cart</button>
+    </div>
+
+    <div class="detail-actions">
+      <span class="price">${{ product.price.toFixed(2) }}</span>
+    </div>
+  </div>
+</section>
